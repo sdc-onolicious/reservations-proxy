@@ -1,0 +1,4 @@
+.mainbodyselector {
+  display: flex;
+  flex-direction: column;
+}
