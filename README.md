@@ -4,10 +4,10 @@
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/freeseats/exzerone-search-bar
+  - https://github.com/freeseats/Menu-Related-SideBar
+  - https://github.com/freeseats/
+  - https://github.com/freeseats/
 
 ## Table of Contents
 
