@@ -1,7 +1,10 @@
 {
-  "name": "reviews-and-impressions",
+  "name": "proxy",
   "version": "1.0.0",
-  "repository": "https://github.com/freeseats/slhodak-proxy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeseats/slhodak-proxy.git"
+  },
   "description": "A reviews module for restaurant-goers' opinions",
   "author": "Sam Hodak",
   "license": "ISC",
@@ -17,5 +20,9 @@
   },
   "devDependencies": {
     "eslint": "^5.16.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/freeseats/slhodak-proxy/issues"
+  },
+  "homepage": "https://github.com/freeseats/slhodak-proxy#readme"
 }
