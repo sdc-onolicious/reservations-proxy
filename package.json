@@ -18,7 +18,6 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint": "^5.16.0"
   }
 }
