@@ -1,6 +1,7 @@
 {
   "name": "reviews-and-impressions",
   "version": "1.0.0",
+  "repository": "https://github.com/freeseats/slhodak-proxy",
   "description": "A reviews module for restaurant-goers' opinions",
   "author": "Sam Hodak",
   "license": "ISC",
