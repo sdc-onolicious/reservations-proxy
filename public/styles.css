@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Brandon;
+  src: url('./fonts/BrandonText_Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: Brandon-Med;
+  src: url('./fonts/BrandonText_Medium.otf') format('opentype');
+}
+
 .whole-page {
   display: flex;
   flex-direction: column;
