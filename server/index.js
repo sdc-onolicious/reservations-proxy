@@ -1,3 +1,4 @@
+require('newrelic');
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -9,11 +10,22 @@ app.get('/:id', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
-app.get('restaurants/:id/reservation', (req, res) => {
+app.get('/restaurants/:id/reservations', (req, res) => {
   const { id } = req.params;
   axios.get(`http://localhost:3020/restaurants/${id}/reservations`)
   .then(response => {
     res.status(200).send(response.data);
+  })
+  .catch(error => {
+    res.status(500).send();
+  });
+});
+
+app.post('/restaurants/:id/reservations', (req, res) => {
+  const { id } = req.params;
+  axios.get(`http://localhost:3020/restaurants/${id}/reservations`)
+  .then(response => {
+    res.status(201).send(response.data);
   })
   .catch(error => {
     res.status(500).send();
